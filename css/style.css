@@ -50,11 +50,18 @@ section {
     display: flex;
 }
 
-.info div {
+.info .date  {
     text-align: center;
     padding: 5px;
 }
-
+    .info .details  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .details-child{
+        text-align: end;
+    }
 .headline {
     font-size: 40px;
     letter-spacing: 1px;
