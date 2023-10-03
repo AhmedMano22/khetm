@@ -46,8 +46,9 @@ section {
     color: #fbfbfb;
     font-weight: bold;
     font-family: "Sakkal Majalla";
-    text-align: right;
+  
     display: flex;
+    justify-content: center;
 }
 
 .info .date  {
@@ -91,6 +92,9 @@ section {
 @media (max-width:380px) {
     .desc-text{
         font-size: 20px;
+    }
+    .headline{
+        font-size: 33px;
     }
 }
 .end{
