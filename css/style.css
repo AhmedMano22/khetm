@@ -52,16 +52,22 @@ section {
 }
 
 .info .date  {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
 }
     .info .details  {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
     }
     .details-child{
         text-align: end;
+    }
+    .date-child{
+        text-align: center;
     }
 .headline {
     font-size: 40px;
@@ -96,6 +102,7 @@ section {
     .headline{
         font-size: 33px;
     }
+   .info{font-size: 14px;}
 }
 .end{
     margin: 35px 0;
